@@ -1,9 +1,0 @@
-{
-  "name": "Wildstuben – Mein Abend",
-  "short_name": "Wildstuben",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f8efe1",
-  "theme_color": "#2f241c",
-  "lang": "de"
-}
