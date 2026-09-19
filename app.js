@@ -154,7 +154,113 @@ let items = [
     subcategory: "Rosé"
   },
 
-  // --- Getränke: Schaum
+  // --- Getränke: Schaumwein ---
+  {
+    id: "prosecco-075",
+    name: "Prosecco",
+    description: "0,75 l",
+    price: 39.90,
+    category: "getraenke",
+    subcategory: "Schaumwein"
+  },
+  {
+    id: "prosecco-025",
+    name: "Prosecco",
+    description: "0,25 l",
+    price: 13.90,
+    category: "getraenke",
+    subcategory: "Schaumwein"
+  },
+
+  // --- Getränke: Spirituosen ---
+  {
+    id: "honig-williamsbirne-2cl",
+    name: "Honig Williamsbirne 35 %",
+    description: "2 cl",
+    price: 6.90,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "jaegermeister-2cl",
+    name: "Jägermeister (Kräuterlikör) 35 %",
+    description: "2 cl",
+    price: 5.30,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "jaegermeister-wuerfel-9x2cl",
+    name: "Jägermeister (Kräuterlikör) 35 %",
+    description: "Würfel – 9 Stk. à 2 cl",
+    price: 42.50,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "jaegermeister-orange-2cl",
+    name: "Jägermeister Orange (Kräuterlikör Orangen-Zitrusaromen) 35 %",
+    description: "2 cl",
+    price: 5.30,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "jaegermeister-orange-wuerfel-12x2cl",
+    name: "Jägermeister Orange (Kräuterlikör Orangen-Zitrusaromen) 35 %",
+    description: "Würfel – 12 Stk. à 2 cl",
+    price: 42.50,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "kleiner-feigling-original-2cl",
+    name: "Kleiner Feigling Original",
+    description: "2 cl",
+    price: 4.70,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "kleiner-feigling-original-wuerfel-12x2cl",
+    name: "Kleiner Feigling Original",
+    description: "Würfel – 12 Stk. à 2 cl",
+    price: 52.00,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "kleiner-feigling-red-berry-2cl",
+    name: "Kleiner Feigling Red Berry",
+    description: "2 cl",
+    price: 4.70,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "kleiner-feigling-red-berry-wuerfel-12x2cl",
+    name: "Kleiner Feigling Red Berry",
+    description: "Würfel – 12 Stk. à 2 cl",
+    price: 52.00,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "alpenschnaps-haselnuss-05l",
+    name: "Alpenschnaps Haselnuss 35 %",
+    description: "0,5 l",
+    price: 76.90,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
+  {
+    id: "alpenschnaps-marille-05l",
+    name: "Alpenschnaps Marille 35 %",
+    description: "0,5 l",
+    price: 76.90,
+    category: "getraenke",
+    subcategory: "Spirituosen"
+  },
   // --- Getränke: Champagner ---
   {
     id: "champagner-moet-075",
@@ -328,7 +434,19 @@ let items = [
   {
     id: "flammkuchen",
     name: "Flammkuchen Klassik",
-    description: "Speck, Zwiebeln
+    description: "Speck, Zwiebeln, Sauerrahm",
+    price: 14.90,
+    category: "speisen",
+    subcategory: "Hauptgerichte"
+  },
+  {
+    id: "flammkuchen-veggie",
+    name: "Flammkuchen Veggie",
+    description: "Tomate, Rucola, Mozzarella",
+    price: 14.90,
+    category: "speisen",
+    subcategory: "Hauptgerichte"
+  },
   // --- Speisen: Rosa Gebratenes ---
   {
     id: "rosa-rinderfilet",
@@ -489,7 +607,7 @@ let items = [
     category: "speisen",
     subcategory: "Kindergerichte"
   },
-]; // <-- Ende des items[] Arrays
+  ]; // <-- Ende des items[] Arrays
 
 
 // --- Rendering der Items ---
